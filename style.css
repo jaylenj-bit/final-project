@@ -12,7 +12,7 @@
     }
 
     header {
-      background: linear-gradient(rgba(0, 123, 255, 0.7), rgba(0, 123, 255, 0.7)), url('https://hips.hearstapps.com/hmg-prod/images/the-alaska-range-with-mount-mckinley-and-wonder-lake-with-news-photo-1650464803.jpg?crop=1.00xw:0.847xh;0,0.0363xh&resize=980:*') center/cover no-repeat;
+      background: url('https://hips.hearstapps.com/hmg-prod/images/the-alaska-range-with-mount-mckinley-and-wonder-lake-with-news-photo-1650464803.jpg?crop=1.00xw:0.847xh;0,0.0363xh&resize=980:*') center/cover no-repeat;
       color: white;
       text-align: center;
       padding: 100px 20px;
