@@ -1,247 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Animal | Alaska</title>
+<meta charset="UTF-8">
+<title>Space Objects</title>
+<link rel="stylesheet" href="style.css">
 </head>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
 
-    nav, a:visited {
-      background-color: white;
-      display: flex;
-      justify-content: center;
-      padding: 15px;
-      gap: 10px;
-      font-size: 20px;
-      text-decoration: none;
-      text-decoration-color: blue;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      font-weight: bold;
-    }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-
-    header {
-      background: url('https://wallpaperaccess.com/full/6371970.jpg') center/cover no-repeat;
-      color: white;
-      padding: 80px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1.2rem;
-    }
-
-    .section {
-      padding: 60px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    .section h2 {
-      font-size: 2rem;
-      color: #007BFF;
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    .animal-cards {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-      justify-content: center;
-    }
-
-    .card {
-      background-color: white;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      max-width: 320px;
-    }
-
-
-    .card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-
-    .card-content {
-      padding: 20px;
-    }
-
-    .card-content h3 {
-      color: #007BFF;
-      margin-bottom: 10px;
-      font-size: 1.5rem;
-    }
-
-    .card-content p {
-      color: #555;
-      font-size: 0.95rem;
-      line-height: 1.5;
-    }
-
-    footer {
-      background-color: #007BFF;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 60px;
-    }
-
-    @media (max-width: 768px) {
-      .card {
-        max-width: 90%;
-      }
-
-      header h1 {
-        font-size: 2.2rem;
-      }
-    }
-  </style>
 <body>
 
-  <header>
-    <h1>Animal Species</h1>
-    <p>At Animal World, we’re dedicated to sharing the world’s most fascinating wildlife — starting with the Caribou, Wolves, and Red Fox.</p>
-  </header>
+<header>
+  <h1>Space Objects</h1>
+  <p>Discover the building blocks of the universe</p>
+</header>
 
-   <nav>
-    <a href="index.html">Home</a>
-    <a href="animals.html">Animals</a>
-    <a href="plants.html">Plant</a>
-  </nav>
-  <section class="section">
-    <h2>Meet the Animals We love</h2>
-    <div class="animal-cards">
+<nav>
+  <a href="index.html">Home</a>
+  <a href="space-objects.html">Space Objects</a>
+  <a href="phenomena.html">Phenomena</a>
+</nav>
 
-      <!-- Caribou -->
-      <div class="card">
-        <img src="https://static01.nyt.com/images/2016/10/01/science/01CARIBOU3/01CARIBOU3-superJumbo.jpg" alt="Caribou">
-        <div class="card-content">
-          <h3>Caribou</h3>
-          <p>Also known as reindeer, Caribou are migratory animals facing threats from habitat loss and climate change. Conservation efforts focus on protecting migration corridors and winter habitats.</p>
-        </div>
-      </div>
+<section class="section">
+  <h2>Explore the Cosmos</h2>
 
-      <!-- Wolves -->
-      <div class="card">
-        <img src="https://cdn.pixabay.com/photo/2023/07/22/05/50/wolf-8142720_1280.png" alt="Wolves">
-        <div class="card-content">
-          <h3>Wolves</h3>
-          <p>Wolves are essential apex predators that help maintain balanced ecosystems. They face threats from hunting and shrinking wilderness, requiring protected zones and legal protections.</p>
-        </div>
-      </div>
+  <div class="card">
+    <h3>Black Holes</h3>
+    <p>Regions of spacetime with gravity so strong that nothing can escape.</p>
+  </div>
 
-      <!-- Red Fox -->
-      <div class="card">
-        <img src="https://cangeo-media-library.s3.amazonaws.com/s3fs-public/images/web_articles/article_images/2996/urbanfox_feb11.jpg" alt="Red Fox">
-        <div class="card-content">
-          <h3>Red Fox</h3>
-          <p>Known for their intelligence and adaptability, red foxes thrive in various environments. Conservation efforts aim to reduce urban conflict and protect native habitats.</p>
-        </div>
-      </div>
-       <!-- Lion -->
-      <div class="card">
-        <img src="https://www.jessleephotos.com/images/xl/Alaska-Brown-Bear-41934.jpg" alt="Red Fox">
-        <div class="card-content">
-          <h3>Brown bear (grizzly)</h3>
-          <p></p>
-        </div>
-      </div>
-         <!-- Elephant -->
-       <div class="card">
-        <img src="https://uploads.alaska.org/suppliers/activities/A/alaska-wildlife-conservation-center/_1600xAUTO_crop_center-center_65_none/Deer-Photo-alaska-untitled.jpg" alt="Red Fox">
-        <div class="card-content">
-          <h3>Sitka black-tailed deer</h3>
-          <p></p>
-        </div>
-      </div>
-       <!-- Dolphin -->
-       <div class="card">
-        <img src="https://cdn.britannica.com/32/193032-050-C92D7C5E/Wolverine.jpg" alt="Red Fox">
-        <div class="card-content">
-          <h3>Wolverine</h3>
-          <p></p>
-        </div>
-      </div>
-      <!-- Giraffe -->
-       <div class="card">
-        <img src="https://biogenus.ca/wp-content/uploads/2018/01/lynx-du-canada-biogenus-1.jpg" alt="Red Fox">
-        <div class="card-content">
-          <h3>Canada lynx</h3>
-          <p></p>
-        </div>
-      </div>
-      <!-- Tiger -->
-       <div class="card">
-        <img src="https://tse4.mm.bing.net/th/id/OIP.Ovnk9R7Os-u9JIUzHKbbIgHaFT?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Red Fox">
-        <div class="card-content">
-          <h3>Sea otter</h3>
-          <p></p>
-        </div>
-      </div>
-      <!-- Penguin -->
-       <div class="card">
-        <img src="https://th.bing.com/th/id/R.25cbe1914d8253316f32c6964cafcf44?rik=Ju%2bklzM0HAY4Yw&pid=ImgRaw&r=0" alt="Red Fox">
-        <div class="card-content">
-          <h3>Beluga whale</h3>
-          <p></p>
-        </div>
-      </div>
-      <!-- Gorilla -->
-       <div class="card">
-        <img src="https://d.newsweek.com/en/full/1311423/pink-squirrel-flying-squirrel-new-world-flying-squirrel-biology-north-america.jpg" alt="Red Fox">
-        <div class="card-content">
-          <h3>Flying squirrel</h3>
-          <p></p>
-        </div>
-      </div>
-      <!-- Kangaroo -->
-       <div class="card">
-        <img src="https://images.pexels.com/photos/39364/golden-eagle-adler-bird-raptor-39364.jpeg?cs=srgb&dl=pexels-pixabay-39364.jpg&fm=jpg" alt="Red Fox">
-        <div class="card-content">
-          <h3>Golden eagle</h3>
-          <p></p>
-        </div>
-      </div>
-           <!-- Zebra -->
-       <div class="card">
-        <img src="https://img.freepik.com/premium-photo/polar-bear-antarctica_691609-707.jpg?w=2000" alt="Red Fox">
-        <div class="card-content">
-          <h3>Polar bear (Arctic coastal areas)</h3>
-          <p></p>
-        </div>
-      </div>
-           <!-- Panda -->
-       <div class="card">
-        <img src="https://animalfactguide.com/wp-content/uploads/2024/01/orca-close.jpg" alt="Red Fox">
-        <div class="card-content">
-          <h3>Orca (killer whale)</h3>
-          <p></p>
-        </div>
-      </div>
+  <div class="card">
+    <h3>Neutron Stars</h3>
+    <p>Ultra-dense remnants of massive stars after supernova explosions.</p>
+  </div>
 
-    </div>
-  </section>
+  <div class="card">
+    <h3>Galaxies</h3>
+    <p>Massive systems of stars, gas, and dark matter held together by gravity.</p>
+  </div>
+
+</section>
 
 </body>
 </html>
-
